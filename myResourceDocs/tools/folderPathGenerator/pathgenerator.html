@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Viewer</title>
+    <!-- Menambahkan link ke Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../src/static/css/pathgenerator.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="py-5 text-center shadow-sm rounded mb-4">
+    <h1 class="display-4 text-white">Document Viewer</h1>
+    <p class="lead text-white">Pilih dokumentasi yang ingin dilihat dari menu di bawah</p>
+</header>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm mb-4 rounded">
+    <div class="container">
+        <a class="navbar-brand" href="#">Dokumentasi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="loadContent('../../../src/static/html/tools/folderPathGenerator/doc1.html')">Dokumentasi 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="loadContent('doc2.html')">Dokumentasi 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="loadContent('doc3.html')">Dokumentasi 3</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Content -->
+<div class="container">
+    <div class="content shadow-sm rounded p-4" id="content-area">
+        <p class="text-center text-muted">Pilih dokumentasi dari menu di atas untuk melihat kontennya.</p>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-light text-center py-3 mt-4 rounded">
+    <p>&copy; 2025 Document Viewer. All rights reserved.</p>
+</footer>
+
+<!-- Menambahkan script Bootstrap dan JS untuk animasi dan interaktivitas -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../../../src/static/js/pathgenerator.js"></script>
+</body>
+</html>
