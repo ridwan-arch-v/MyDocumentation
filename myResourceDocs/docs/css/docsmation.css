@@ -1,0 +1,151 @@
+        /* Reset margin dan padding untuk semua elemen */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Styling untuk body */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #FBFFDC; /* Latar belakang cream light */
+            color: #5A4D3C; /* Teks utama warna coklat lembut */
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        /* Styling untuk header */
+        header {
+            background-color: #79E0EE; /* Soft blue */
+            color: #ffffff; /* Teks putih di header */
+            padding: 50px 20px;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            border: 2px solid #98EECC; /* Garis pembatas lembut */
+            transition: all 0.3s ease;
+        }
+        
+        header:hover {
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15); /* Efek hover yang lebih lembut */
+        }
+        
+        header h1 {
+            font-size: 36px;
+            font-weight: 600;
+        }
+        
+        /* Styling untuk navigation */
+        nav {
+            background-color: #D0F5BE; /* Light green yang lembut */
+            padding: 15px 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            border: 1px solid #98EECC; /* Garis pembatas lembut */
+        }
+        
+        nav a {
+            color: #5A4D3C; /* Teks dark brown yang lembut */
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        
+        nav a:hover {
+            color: #79E0EE; /* Soft blue saat hover */
+            transform: scale(1.05); /* Efek zoom saat hover */
+        }
+        
+        /* Layout container */
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        /* Styling untuk setiap konten dokumentasi */
+        .main-content {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid #98EECC; /* Garis pembatas lembut */
+            transition: all 0.3s ease;
+        }
+        
+        .main-content:hover {
+            transform: scale(1.02); /* Efek zoom pada card */
+        }
+        
+        .main-content h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #5A4D3C; /* Teks dark brown untuk heading */
+        }
+        
+        .main-content p {
+            font-size: 16px;
+            margin-bottom: 25px;
+            color: #666; /* Warna teks soft agar tidak terlalu mencolok */
+        }
+        
+        .main-content a.button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #79E0EE; /* Soft blue untuk tombol */
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        
+        .main-content a.button:hover {
+            background-color: #98EECC; /* Light Aqua saat hover */
+            transform: translateY(-5px); /* Efek tombol terangkat */
+        }
+        
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #79E0EE; /* Soft blue */
+            color: white;
+            margin-top: 50px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            border: 2px solid #98EECC; /* Garis pembatas lembut */
+        }
+        
+        footer p {
+            font-size: 14px;
+            color: #5A4D3C;
+        }
+        
+        /* Styling untuk tombol aktif di navigasi */
+        nav a.active {
+            color: white;
+            background-color: #79E0EE; /* Soft blue untuk tombol aktif */
+            border-radius: 6px;
+            padding: 10px 15px;
+        }
+        
+        /* Responsif untuk layar kecil */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        
+            .main-content {
+                margin-bottom: 20px;
+            }
+        }
+        

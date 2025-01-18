@@ -51,7 +51,7 @@ Once you have added documentation for your repositories, you can easily navigate
 
 ## 📜 License
 
-This project is licensed under the **Apache 2.0 License**. See the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the **Apache 2.0 License**. See the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author & Contributors
 
