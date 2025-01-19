@@ -6,18 +6,6 @@ This document lists all the contributors to the project and the specific contrib
 
 - **Role**: Project Creator, Author
 
----
-
-### 🎉 [v0.01] - 2025-01-18
-
-- **Release Type**: Initial Release
-- **Contributions**:
-  - Set up the initial project structure.
-  - Created the basic directory structure and configuration files.
-  - Prepared the foundation for future updates and releases.
-  - Organized the first release of documentation management.
-- **Notes**: This is the first official release. The project is now ready for adding and managing documentation.
-
 > Feel free to reach out if you want to contribute or suggest improvements for future releases.
 
 ---
