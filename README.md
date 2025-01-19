@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 ![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)
 ![Version](https://img.shields.io/badge/version-v0.01-orange.svg)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3d077e3b-c15a-4af5-84b8-64efe58e7f8e/deploy-status)](https://app.netlify.com/sites/ridwandocsrepo/deploys)
 ## 📖 Description
 
 **MyDocumentation** is a project designed as a centralized dashboard for managing documentation across multiple repositories. Instead of having documentation scattered across various projects, this platform allows you to organize and access all your project documentation in one place, creating a more streamlined and structured approach—like a wiki for your repositories.
